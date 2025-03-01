@@ -1,0 +1,26 @@
+.urlShareButton {
+    width: 48px;
+    height: 48px;
+    border: 0px;
+    border-radius: 24px;
+    margin: 0 0.5rem;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.urlShareButton:hover {
+    background-color: #333;
+}
+
+.socialMediaIcon {
+    padding: 0 0.5rem;
+}
+
+.shareButtonDiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
