@@ -38,7 +38,7 @@ export default function ThumbnailList({currentTest}: ThumbnailListProps){
     return (
         <div >
             {testList.map((test) => (
-                <Link to={`${baseUrl}/${test.info.mainUrl}`} 
+                <Link to={`/${test.info.mainUrl}`} 
                 key={test.info.mainUrl}>
                     <img 
                     style={{width: "100%"}}

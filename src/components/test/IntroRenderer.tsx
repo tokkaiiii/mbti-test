@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { TESTS } from "../../data/TEST";
 import Intro from "./Intro";
 import Quiz from "./Quiz";
 import Loading from "./Loading";
