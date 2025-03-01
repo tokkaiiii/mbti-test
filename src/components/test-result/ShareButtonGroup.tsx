@@ -11,7 +11,7 @@ type ShareButtonGroupProps = {
 }
 
 export default function ShareButtonGroup({testParam, resultParam, test}: ShareButtonGroupProps) {
-    const [copy] = useCopyToClipboard();
+    const [_, copy] = useCopyToClipboard();
     return (
         <div>
             <h3>친구에게 공유하기</h3>

@@ -9,7 +9,7 @@ type ResultButtonGroupProps = {
 }
 
 export default function ResultButtonGroup({testParam, resultParam}: ResultButtonGroupProps) {
-    const [copy] = useCopyToClipboard();        
+    const [_, copy] = useCopyToClipboard();        
     const navigate = useNavigate();
     const onClickRedoButton = () => {
         navigate(`/${testParam}`);
