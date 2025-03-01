@@ -2,7 +2,7 @@ import { useCopyToClipboard } from "@uidotdev/usehooks";
 import { baseUrl } from "../../App";
 import { LinkOutlined, RedoOutlined, HomeOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
-import styles from "./ResultButtonGroup.module.css";
+import styles from "./resultButtonGroup.module.css";
 type ResultButtonGroupProps = {
     testParam: string;
     resultParam: string;
